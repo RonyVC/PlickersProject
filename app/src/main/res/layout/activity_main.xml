@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBackgroundColor"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/actionBarColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <view
+        android:id="@+id/questions_list"
+        android:layout_marginTop="@dimen/universal_app_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="android.support.v7.widget.RecyclerView"
+        android:clickable="true"
+        android:clipToPadding="false"></view>
+
+        <include
+            layout="@layout/progress_bar_layout"
+            android:layout_width="fill_parent"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"
+
+
+            />
+    </RelativeLayout>
+
+</LinearLayout>

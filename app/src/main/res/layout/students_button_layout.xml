@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/studentsChoicesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/universal_app_margin"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:padding="@dimen/universal_app_margin"
+        android:background="@drawable/item_background_layout"
+        android:text="@string/viewStudentsChoices"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

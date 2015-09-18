@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splashBackgroundColor">#0779E1</color>
+    <color name="appBackgroundColor">#77D5EE</color>
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="grayItemColor">#d3d3d3</color>
+    <color name="whiteTransparencyColor">#CCFFFFFF </color>
+    <color name="redColor">#ff1919 </color>
+    <color name="greenColor">#00e500 </color>
+    <color name="actionBarColor">#0084C5 </color>
+
+
+</resources>

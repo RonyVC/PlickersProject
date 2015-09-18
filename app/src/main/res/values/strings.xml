@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Plickers</string>
+    <string name="choicesHeaderTitle">Choices :</string>
+    <string name="questionsTitle">Questions</string>
+    <string name="questionsDetailsTitle">Questions Details</string>
+    <string name="viewStudentsChoices">View Students Choices</string>
+    <string name="studentsChoicesTitle"> Students Choices</string>
+    <string name="cardStr"> Card Used :</string>
+    <string name="choiceStr"> Choice :</string>
+    <string name="emailStr"> Email :</string>
+    <string name="noConnectivity">There is no internet connection, Please check your connection and try again later.</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
